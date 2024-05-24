@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+/* navbar */
+.navbar {
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 35px;
+}
+/* home */
+.home h3{
+    padding-top: 15PX;
+    text-align: center;
+    color: rgb(199, 20, 20);
+    
+}
+.home img {
+    height: 110px;
+    width: 110PX;
+    padding: 20PX 10p;
+    margin: 0px 2px;
+    border-radius: 55px;
+}
+/* about */
+.about h3 {
+    padding-top: 15PX;
+    text-align: center;
+}
+
+.about img {
+    height: 150px;
+    width: 150PX;
+    padding: 20PX 10p;
+    margin: 0px 4px;
+    border-radius: 75px;
+}
+/* card */
+.cards {
+    height: 900px;
+    background-color: black;
+    padding-top: 100px;
+}
+
+.cards h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.cards .card {
+    padding: 25px 0;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.cards .card img {
+    width: 18%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/* footer */
+.footer {
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+/* media  */
+@media (max-width: 450px) {
+    .cards {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .cards .p {
+        width: 40%;
+        padding: 45px;
+        margin-top: 300px;
+    }
+}
+@media (max-width: 450px) {
+    .footer p{
+        display: block;
+        width: 100%;
+        min-height: 0;
+        
+    }
+    .footer  {
+        width: 100%;
+        padding: 45px;
+        margin-top: 300px;
+    }
+}
